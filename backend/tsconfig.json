@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*",
+    "*.ts",
+    "*.d.ts",
+    "./**/*.ts",
+    "./**/*.d.ts",
+    "index.ts",
+    "oracledb.d.ts"
+  ]
+}
